@@ -3,10 +3,9 @@ HIMB Summer Course - Remote Sensing Independent Project
 Carly Portch
 2019-05-31
 
-## R Markdown information
+<!-- ## R Markdown information  -->
 
-\#(remove this section once you no longer need this
-information)
+<!-- #(remove this section once you no longer need this information) -->
 
 <!-- This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>. -->
 
@@ -37,8 +36,9 @@ information)
 ## Summary
 
 The goal of this study is to understand the sediment transport systems
-at Torbay in Albany, Western Australia. Due to the site’s large waves
-and rugged coastline, it undergoes significant erosion and deposition
+at Torbay in Albany, Western Australia, and identify whether this is
+possible using satellite imagery. Due to the sites large waves and
+rugged coastline, it undergoes significant erosion and deposition
 annnually.
 
 ## Question(s)
@@ -57,16 +57,16 @@ imagery?
 Torbay is a large Southern-facing bay situated along the Southern Ocean.
 It is known for its large swell, with average wave heights of 2-3 m and
 extreme wave heights of 8-10 m during storms. The nearshore zone
-consists of a rocky fringing reef with various pockets of sand,
-explaining it’s well known term “sandpatches”.
+consists of a rocky fringing reef with various pockets of sand, hinting
+at its common name “sandpatches”.
 
-Torbaay has been selected as a testing facility for wave energy
-companies to trial a commercial-scale wave energy farm, however there is
+Torbay has been selected as a testing facility for wave energy companies
+to trial their commercial-scale wave energy farms, however there is
 currently very limited knowledge on the existing conditions of the site.
 In order to understand the potential coastal impacts of these wave
-energy farms, it is important to first understand what the natural,
-seasonal variations
-are.
+energy farms, it is important to first understand the nearshore
+hydrodynamic systems and seasonal
+changes.
 
 ## Methods
 
@@ -117,7 +117,7 @@ patterns.
 <!-- You would also do your analyses in this section, and you can choose whether or not your code and analytical results show up in the output (knitted) document, for example (replace this with your own when you're ready to do analyses): -->
 
 Thus far in my analysis, I have gone through all available Google Earth
-images of a selected location, and all of the Planet data for 2017. I
+images of the selected location, and all of the Planet data for 2017. I
 created the table below to summarize the results I have so far:
 
 (See “Project Data Analysis.xlsx” for table).
@@ -150,19 +150,18 @@ taking sand offshore).
 
 A secondary goal of this study was to try and identify whether it was
 possible to use Planet data (since it provides daily data) to draw
-conclusions as to the condition of the beach (eroded or deposited), or
-if it was best to do our own field survey, or use Google Earth (very
-clear data, but only approx. 2 photos per year). It was evident that
-some results can be pulled from Planet as a way to get an initial idea
-of the trends (i.e. the trends I’ve identified), but then to get the
-more specific details (i.e. cross shore vs longshore transport, and the
-quantitative amount of sand being moved each season etc.), it may be
-necessary to conduct a field study. This also helps with setting up the
-field study and planning out the times of the year that will likely give
-the most contrasting results (i.e. Feb vs Nov).
+conclusions on the condition of the beach (eroded or deposited), or if
+it was best to do our own field survey, or use Google Earth (very clear
+data, but only approx. 2 photos per year). It was evident that some
+results can be pulled from Planet to identify baseline trends (i.e. the
+trends I’ve identified), but then to get the more specific details
+(i.e. cross shore vs longshore transport, and the quantitative amount
+of sand being moved each season etc.), it may be necessary to conduct a
+field study. This study also helps with setting up the field study and
+planning out the times of the year that will likely give the most
+contrasting results (i.e. Feb vs
+Nov).
 
-## References
+<!-- ## References -->
 
-You won’t likely need this section at this stage, but when you’re
-writing a paper, can insert references into RMardown docs - see
-<https://rmarkdown.rstudio.com/authoring_bibliographies_and_citations.html>.
+<!-- You won't likely need this section at this stage, but when you're writing a paper, can insert references into RMardown docs - see https://rmarkdown.rstudio.com/authoring_bibliographies_and_citations.html.  -->
