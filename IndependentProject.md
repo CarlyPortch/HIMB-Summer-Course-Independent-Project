@@ -46,14 +46,13 @@ annnually.
 Listed below is the specific, testable question my project seeks to
 answer:
 
-Is there seasonal variability of sediment transport along the Torbay
-coastline through satellite imagery?
+Is there quantifiable seasonal variability of sediment transport along
+the Torbay coastline through satellite
+imagery?
 
 ## Introduction
 
-\#Insert here some brief (2-3 sentence) background information on your
-project (e.g., what the current state of knowledge is on the topic, why
-your question(s) need to be answered, etc.).
+<!-- #Insert here some brief (2-3 sentence) background information on your project (e.g., what the current state of knowledge is on the topic, why your question(s) need to be answered, etc.). -->
 
 Torbay is a large Southern-facing bay situated along the Southern Ocean.
 It is known for its large swell, with average wave heights of 2-3 m and
@@ -66,14 +65,12 @@ companies to trial a commercial-scale wave energy farm, however there is
 currently very limited knowledge on the existing conditions of the site.
 In order to understand the potential coastal impacts of these wave
 energy farms, it is important to first understand what the natural,
-seasonal variations are.
+seasonal variations
+are.
 
 ## Methods
 
-\#Insert here a few sentences and/or dot points to briefly summarize the
-methods you’re using. Include any details you’d need to know if coming
-back to this project at a later date when you might not remember exactly
-what you did this week.
+<!-- #Insert here a few sentences and/or dot points to briefly summarize the methods you're using. Include any details you'd need to know if coming back to this project at a later date when you might not remember exactly what you did this week.  -->
 
   - Select a location of interest within Torbay (i.e. a sand patch that
     has annual sediment change)
@@ -90,26 +87,20 @@ what you did this week.
     longshore sediment transport that must be taken into account.
   - Identify any visible plumes of sediment, dark patches, and/or rip
     currents in the selected photos to see if it aligns with the
-    identified patterns.
+    identified
+patterns.
 
-\#You can embed images (e.g., maps, diagrams, screenshots, etc.) by
-using the following code:
+<!-- #You can embed images (e.g., maps, diagrams, screenshots, etc.) by using the following code: -->
 
-\#Images on the web:
+<!-- #Images on the web:  -->
 
-\#![optional caption
-text](https://www.bestfunnies.com/wp-content/uploads/2012/08/Funny-Fish-11.jpg)
+<!-- #![optional caption text](https://www.bestfunnies.com/wp-content/uploads/2012/08/Funny-Fish-11.jpg) -->
 
-\#To add images from your local files that are stored in the same
-directory (folder) as your Rproject, replace the web address above with
-the fliename of your image.
+<!-- #To add images from your local files that are stored in the same directory (folder) as your Rproject, replace the web address above with the fliename of your image. -->
 
 ## Results
 
-\#Summarize the current status of the project - i.e., how far you got in
-your data collection, what’s left to do, any patterns you’ve noticed so
-far.
-etc.
+<!-- #Summarize the current status of the project - i.e., how far you got in your data collection, what's left to do, any patterns you've noticed so far. etc.  -->
 
 <!-- Once you've collected your data, this is where you'll do your R plotting and analyses.  -->
 
@@ -134,38 +125,22 @@ created the table below to summarize the results I have so far:
 Below are two sample photos from Google Earth showing the location in
 winter vs summer:
 
-![February 2017 - Google Earth](Images/20170223.png) ![October 2017 -
-Google Earth](Images/20161021.png)
+![February 2017 - Google Earth](Images/20170223.png)
 
-``` r
-model <- lm(pressure~temperature, data = pressure)
-summary(model)
-```
+![October 2017 - Google
+Earth](Images/20161021.png)
 
-    ## 
-    ## Call:
-    ## lm(formula = pressure ~ temperature, data = pressure)
-    ## 
-    ## Residuals:
-    ##     Min      1Q  Median      3Q     Max 
-    ## -158.08 -117.06  -32.84   72.30  409.43 
-    ## 
-    ## Coefficients:
-    ##              Estimate Std. Error t value Pr(>|t|)    
-    ## (Intercept) -147.8989    66.5529  -2.222 0.040124 *  
-    ## temperature    1.5124     0.3158   4.788 0.000171 ***
-    ## ---
-    ## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
-    ## 
-    ## Residual standard error: 150.8 on 17 degrees of freedom
-    ## Multiple R-squared:  0.5742, Adjusted R-squared:  0.5492 
-    ## F-statistic: 22.93 on 1 and 17 DF,  p-value: 0.000171
+<!-- ```{r pressure analysis, echo=TRUE} -->
+
+<!-- model <- lm(pressure~temperature, data = pressure) -->
+
+<!-- summary(model) -->
+
+<!-- ``` -->
 
 ## Discussion
 
-\#insert here a few sentences about anything you’ve learned so far -
-e.g., any unexpected patterns, any challenges you’ve had, next steps,
-etc.
+<!-- #insert here a few sentences about anything you've learned so far - e.g., any unexpected patterns, any challenges you've had, next steps, etc. -->
 
 It is clear that there is a trend between the summer/fall and
 winter/spring seasons. It appears that it is very sandy in the summer
